@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alish ❤️ Anas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">A LITTLE WEBSITE FOR A BEAUTIFUL MEMORY</p>
+      <h1>Alish <span>♥</span> Anas</h1>
+      <p class="subtitle">Our story, our memories, our special day.</p><div class="date-card"><span>ANNIVERSARY</span><strong>14 November 2025</strong><div id="countdown">Loading...</div></div>
+      <a class="button" href="#memories">View Memories</a>
+    </section>
+
+    <section id="memories" class="section">
+      <h2>Our Memories</h2>
+      <p class="section-note">Three little moments worth remembering.</p>
+      <div class="gallery">
+        <img src="images/photo1.jpg" alt="Alish and Anas together">
+        <img src="images/photo2.jpg" alt="A memory of Alish and Anas">
+        <img src="images/photo3.jpg" alt="Alish and Anas in a black and white memory">
+      </div>
+    </section>
+
+    <section class="letter section">
+      <div class="card">
+        <div class="mini-heart">♥</div>
+        <h2>For Alish & Anas</h2>
+        <p>
+          Some memories become special simply because of the people in them.
+          This little page is a place to keep your favorite moments together.
+        </p>
+        <p class="signature">— With love, always</p>
+      </div>
+    </section>
+
+    <section class="section qr-section">
+      <h2>Share This Memory</h2>
+      <p class="section-note">Enter your live website address after publishing it, then generate a free QR code.</p>
+      <div class="qr-box">
+        <input id="siteUrl" type="url" placeholder="https://yourname.github.io/alish-anas/" autocomplete="url">
+        <button id="qrBtn" class="button" type="button">Generate QR</button>
+        <div id="qrcode" class="qrcode"></div>
+        <p id="qrHint" class="qr-hint">The QR code will open your anniversary website.</p>
+      </div>
+    </section>
+
+    <footer>Alish ♥ Anas · Made with memories</footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
